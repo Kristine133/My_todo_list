@@ -1,0 +1,108 @@
+body {
+    background-color: white;
+}
+
+.container {
+    display: left;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    text-shadow: 1px 3px 2px #c4c3c3;
+    font-family: "Bradley Hand";
+    color: yellowgreen;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Bradley Hand";
+    font-size: 16px;
+    text-shadow: 1px 3px 2px #c4c3c3;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 40px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    background-color: white;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    text-align: center;
+    border-radius: 13px;
+    position: center;
+}
+
+.container {
+    display: block;
+    position: center;
+}
+
+input {
+    background: none;
+    width: 220px;
+    height: 35px;
+    cursor: pointer;
+    border-width: 3px;
+    border-color: yellowgreen;
+    -webkit-border-radius: 14px;
+}
+
+.button {
+    font-size: 15px;
+    background-color: yellowgreen;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(134, 133, 133);
+}
+
+.button2 {
+    height: 20px;
+    font-size: 12px;
+    color: yellowgreen;
+    margin-bottom: 5px;
+
+}
+
+.terms {
+    font-size: 10px;
+    font-family: "Arial";
+    margin-top: 140px;
+}
+
